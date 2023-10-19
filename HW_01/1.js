@@ -13,7 +13,7 @@
 Уточнение: пользователь всегда вводит корректное число.
 */
 
-const C = prompt("ввести температуру в градусах Цельсия");
-const F = (9 / 5) * C + 32;
+const degreeCel = Number.parseFloat(prompt("ввести температуру в градусах Цельсия"));
+const degreeFar = ((9 / 5) * degreeCel + 32).toFixed(1);
 
-alert(`Цельсий: ${C}, Фаренгейт: ${F}`);
+alert(`Цельсий: ${degreeCel}, Фаренгейт: ${degreeFar}`);
