@@ -14,13 +14,13 @@
 число 32.
 */
 
-const dayNumber = Number(prompt("Введите число от 1 до 31 включительно"));
-if (dayNumber < 1 || dayNumber > 31) {
-  console.log("Неверное значение");
-} else if (dayNumber <= 10) {
-  console.log(`число ${dayNumber} попадает в первую декаду месяца`);
-} else if (dayNumber <= 20) {
-  console.log(`число ${dayNumber} попадает во вторую декаду месяца`);
-} else {
-  console.log(`число ${dayNumber} попадает в третью декаду месяца`);
-}
+// const dayNumber = Number(prompt("Введите число от 1 до 31 включительно"));
+// if (dayNumber < 1 || dayNumber > 31) {
+//   console.log("Неверное значение");
+// } else if (dayNumber <= 10) {
+//   console.log(`число ${dayNumber} попадает в первую декаду месяца`);
+// } else if (dayNumber <= 20) {
+//   console.log(`число ${dayNumber} попадает во вторую декаду месяца`);
+// } else {
+//   console.log(`число ${dayNumber} попадает в третью декаду месяца`);
+// }
