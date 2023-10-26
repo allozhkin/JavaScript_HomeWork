@@ -17,6 +17,8 @@ if (!userNumber || userNumber < 0) {
 }
 
 function userSalary(number) {
-  const fee = number - number * 0.13;
-  console.log(`Размер заработной платы за вычетом налогов равен ${fee}.`);
+  const userTax = number - number * 0.13;
+  console.log(
+    `Размер заработной платы за вычетом налогов равен ${userTax.toFixed(0)}.`
+  );
 }

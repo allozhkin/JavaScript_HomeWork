@@ -15,10 +15,11 @@ const userNumber2 = Number(prompt("Введите число 2"));
 const userNumber3 = Number(prompt("Введите число 3"));
 
 const maxValue = (val1, val2, val3) => {
-  return `Максимальное значение среди чисел ${val1}, ${val2}, ${val3} равно ${Math.max(
-    val1,
-    val2,
-    val3
-  )}.`;
+  console.log(
+    `Максимальное значение среди чисел ${val1}, ${val2}, ${val3} равно ${Math.max(
+      val1,
+      val2,
+      val3
+    )}.`
+  );
 };
-console.log(maxValue(userNumber1, userNumber2, userNumber3));

@@ -8,6 +8,6 @@
 */
 
 const cubeNum = function (number) {
-  return Math.pow(number, 3);
+  return number ** 3;
 };
 console.log(cubeNum(5));

@@ -22,9 +22,6 @@ function addition(num1, num2) {
   return num1 + num2;
 }
 const subtraction = (num1, num2) => {
-  if (num1 === num2) {
-    return 0;
-  }
   if (num1 > num2) {
     return num1 - num2;
   }
@@ -34,9 +31,6 @@ const multiply = function (num1, num2) {
   return num1 * num2;
 };
 function division(num1, num2) {
-  if (num1 === num2) {
-    return 1;
-  }
   if (num1 > num2) {
     return num1 / num2;
   }
