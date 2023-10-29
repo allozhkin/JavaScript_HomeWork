@@ -7,6 +7,6 @@
 Вывести значение переменной admin в консоль.
 */
 
-const name = 'Alexey';
-const admin = `${name}`;
+const userName = 'Alexey';
+const admin = `${userName}`;
 console.log(admin);
