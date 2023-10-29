@@ -15,7 +15,7 @@ for (let i = 0; i <= 10; i++) {
     console.log(`${i} - это ноль`);
   } else if (i % 2 === 0) {
     console.log(`${i} - это четное`);
-  }else{
+  } else {
     console.log(`${i} - это нечетное`);
   }
 }
